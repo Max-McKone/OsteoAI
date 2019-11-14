@@ -9,7 +9,7 @@ Self diagnosis app for finding fast on the spot osteopathic advice.
 
 📘 https://www.linkedin.com/in/max-mckone-08141414a/
 
-![Logo](https://raw.githubusercontent.com/Max-McKone/OsteoAI/master/imgs/preview.png)
+![Logo](https://raw.githubusercontent.com/Max-McKone/OsteoAI/master/imgs/bottompic.png)
 
 
 
