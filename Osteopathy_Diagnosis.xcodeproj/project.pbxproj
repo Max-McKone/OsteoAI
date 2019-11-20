@@ -32,6 +32,27 @@
 			remoteGlobalIDString = 8D08380620FA4F69000A25FD;
 			remoteInfo = Osteopathy_Diagnosis;
 		};
+		8D2C819D2385393800726EA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D2C81972385393700726EA5 /* OsteoAI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D2C81642385392F00726EA5;
+			remoteInfo = OsteoAI;
+		};
+		8D2C819F2385393800726EA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D2C81972385393700726EA5 /* OsteoAI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D2C817A2385393700726EA5;
+			remoteInfo = OsteoAITests;
+		};
+		8D2C81A12385393800726EA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D2C81972385393700726EA5 /* OsteoAI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D2C81852385393700726EA5;
+			remoteInfo = OsteoAIUITests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +69,7 @@
 		8D08382A20FA4F6E000A25FD /* Osteopathy_DiagnosisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Osteopathy_DiagnosisUITests.swift; sourceTree = "<group>"; };
 		8D08382C20FA4F6E000A25FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D08383D21010B01000A25FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8D2C81972385393700726EA5 /* OsteoAI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OsteoAI.xcodeproj; path = "../../Library/Autosave Information/OsteoAI/OsteoAI.xcodeproj"; sourceTree = "<group>"; };
 		8D93AFEB2381A04400D377C2 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +101,7 @@
 		8D0837FE20FA4F69000A25FD = {
 			isa = PBXGroup;
 			children = (
+				8D2C81972385393700726EA5 /* OsteoAI.xcodeproj */,
 				8D08380920FA4F69000A25FD /* Osteopathy_Diagnosis */,
 				8D08381E20FA4F6E000A25FD /* Osteopathy_DiagnosisTests */,
 				8D08382920FA4F6E000A25FD /* Osteopathy_DiagnosisUITests */,
@@ -126,6 +149,16 @@
 				8D08382C20FA4F6E000A25FD /* Info.plist */,
 			);
 			path = Osteopathy_DiagnosisUITests;
+			sourceTree = "<group>";
+		};
+		8D2C81982385393700726EA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D2C819E2385393800726EA5 /* OsteoAI.app */,
+				8D2C81A02385393800726EA5 /* OsteoAITests.xctest */,
+				8D2C81A22385393800726EA5 /* OsteoAIUITests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +251,12 @@
 			mainGroup = 8D0837FE20FA4F69000A25FD;
 			productRefGroup = 8D08380820FA4F69000A25FD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8D2C81982385393700726EA5 /* Products */;
+					ProjectRef = 8D2C81972385393700726EA5 /* OsteoAI.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8D08380620FA4F69000A25FD /* Osteopathy_Diagnosis */,
@@ -226,6 +265,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8D2C819E2385393800726EA5 /* OsteoAI.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = OsteoAI.app;
+			remoteRef = 8D2C819D2385393800726EA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8D2C81A02385393800726EA5 /* OsteoAITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OsteoAITests.xctest;
+			remoteRef = 8D2C819F2385393800726EA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8D2C81A22385393800726EA5 /* OsteoAIUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OsteoAIUITests.xctest;
+			remoteRef = 8D2C81A12385393800726EA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8D08380520FA4F69000A25FD /* Resources */ = {
