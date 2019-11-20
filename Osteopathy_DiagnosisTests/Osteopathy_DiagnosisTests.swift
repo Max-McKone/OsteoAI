@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import Osteopathy_Diagnosis
 
 class Osteopathy_DiagnosisTests: XCTestCase {
     

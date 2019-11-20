@@ -14,6 +14,7 @@
 		8D08382020FA4F6E000A25FD /* Osteopathy_DiagnosisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D08381F20FA4F6E000A25FD /* Osteopathy_DiagnosisTests.swift */; };
 		8D08382B20FA4F6E000A25FD /* Osteopathy_DiagnosisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D08382A20FA4F6E000A25FD /* Osteopathy_DiagnosisUITests.swift */; };
 		8D08383E21010B01000A25FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D08383D21010B01000A25FD /* Images.xcassets */; };
+		8D93AFEC2381A04400D377C2 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D93AFEB2381A04400D377C2 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8D08382A20FA4F6E000A25FD /* Osteopathy_DiagnosisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Osteopathy_DiagnosisUITests.swift; sourceTree = "<group>"; };
 		8D08382C20FA4F6E000A25FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D08383D21010B01000A25FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8D93AFEB2381A04400D377C2 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				8D08381120FA4F6D000A25FD /* Assets.xcassets */,
 				8D08381620FA4F6E000A25FD /* Info.plist */,
 				8D08383D21010B01000A25FD /* Images.xcassets */,
+				8D93AFEB2381A04400D377C2 /* SwiftUIView.swift */,
 			);
 			path = Osteopathy_Diagnosis;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				8D08380D20FA4F69000A25FD /* ViewController.swift in Sources */,
 				8D08380B20FA4F69000A25FD /* AppDelegate.swift in Sources */,
+				8D93AFEC2381A04400D377C2 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
