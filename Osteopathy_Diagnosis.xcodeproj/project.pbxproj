@@ -14,6 +14,7 @@
 		8D08382020FA4F6E000A25FD /* Osteopathy_DiagnosisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D08381F20FA4F6E000A25FD /* Osteopathy_DiagnosisTests.swift */; };
 		8D08382B20FA4F6E000A25FD /* Osteopathy_DiagnosisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D08382A20FA4F6E000A25FD /* Osteopathy_DiagnosisUITests.swift */; };
 		8D08383E21010B01000A25FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D08383D21010B01000A25FD /* Images.xcassets */; };
+		8D20F747238D27B900D93731 /* Symptoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D20F746238D27B900D93731 /* Symptoms.swift */; };
 		8D93AFEC2381A04400D377C2 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D93AFEB2381A04400D377C2 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,7 @@
 		8D08382A20FA4F6E000A25FD /* Osteopathy_DiagnosisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Osteopathy_DiagnosisUITests.swift; sourceTree = "<group>"; };
 		8D08382C20FA4F6E000A25FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D08383D21010B01000A25FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8D20F746238D27B900D93731 /* Symptoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptoms.swift; sourceTree = "<group>"; };
 		8D2C81972385393700726EA5 /* OsteoAI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OsteoAI.xcodeproj; path = "../../Library/Autosave Information/OsteoAI/OsteoAI.xcodeproj"; sourceTree = "<group>"; };
 		8D93AFEB2381A04400D377C2 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 		8D0837FE20FA4F69000A25FD = {
 			isa = PBXGroup;
 			children = (
+				8D20F746238D27B900D93731 /* Symptoms.swift */,
 				8D2C81972385393700726EA5 /* OsteoAI.xcodeproj */,
 				8D08380920FA4F69000A25FD /* Osteopathy_Diagnosis */,
 				8D08381E20FA4F6E000A25FD /* Osteopathy_DiagnosisTests */,
@@ -323,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D08380D20FA4F69000A25FD /* ViewController.swift in Sources */,
+				8D20F747238D27B900D93731 /* Symptoms.swift in Sources */,
 				8D08380B20FA4F69000A25FD /* AppDelegate.swift in Sources */,
 				8D93AFEC2381A04400D377C2 /* SwiftUIView.swift in Sources */,
 			);

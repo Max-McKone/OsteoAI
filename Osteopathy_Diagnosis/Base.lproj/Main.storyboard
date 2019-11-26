@@ -116,8 +116,8 @@
                                     <segue destination="AwU-oN-SWf" kind="presentation" modalTransitionStyle="crossDissolve" id="cdb-Fw-Zm5"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OsteoAILogo" translatesAutoresizingMaskIntoConstraints="NO" id="M8p-Nx-hRq">
-                                <rect key="frame" x="115" y="0.0" width="148" height="44"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="OsteoAILogo" translatesAutoresizingMaskIntoConstraints="NO" id="M8p-Nx-hRq">
+                                <rect key="frame" x="116" y="20" width="148" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Bso-es-UaH"/>
                                     <constraint firstAttribute="width" constant="148" id="H0c-Sv-Hgd"/>
@@ -671,7 +671,7 @@
         <image name="bubble" width="945" height="276"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1NC-Ch-Eu8"/>
+        <segue reference="aQA-g0-5kf"/>
         <segue reference="7xv-yo-6En"/>
         <segue reference="2rQ-V4-bvF"/>
     </inferredMetricsTieBreakers>
