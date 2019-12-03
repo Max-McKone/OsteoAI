@@ -462,10 +462,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bubble" translatesAutoresizingMaskIntoConstraints="NO" id="K8t-RR-yHF">
-                                <rect key="frame" x="99" y="320" width="295" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ca4-sg-gzF">
                                 <rect key="frame" x="181" y="584" width="53" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -500,6 +496,10 @@
                                     <constraint firstAttribute="width" constant="148" id="klr-EC-BGn"/>
                                 </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bubble" translatesAutoresizingMaskIntoConstraints="NO" id="K8t-RR-yHF">
+                                <rect key="frame" x="99" y="331" width="295" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -511,7 +511,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xg5-Av-vqk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3117" y="92"/>
+            <point key="canvasLocation" x="3115.9420289855075" y="91.741071428571431"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pCy-Br-miR">
@@ -848,7 +848,7 @@
         <image name="bubble" width="945" height="276"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aQA-g0-5kf"/>
+        <segue reference="ov4-X4-0gZ"/>
         <segue reference="7xv-yo-6En"/>
         <segue reference="2rQ-V4-bvF"/>
     </inferredMetricsTieBreakers>
